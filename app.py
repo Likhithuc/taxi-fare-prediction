@@ -19,4 +19,4 @@ if st.button("Predict Fare"):
     
     # Predict
     prediction = model.predict(input_data)[0]
-    st.success(f"💰 Predicted Fare: ₹{round(prediction, 2)}")
+    st.success(f"💰 Predicted Fare: ${round(prediction, 2)}")
